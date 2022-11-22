@@ -1,0 +1,42 @@
+﻿@page "/vercanciones/{id:int}"
+@using Models
+@using Services
+@inject ICancionesService CancionesService
+<MudText Typo="Typo.h4" Class="text-center pa-4 shades-text text-white " >Lista de canciones</MudText>
+@if (Cancioness == null)
+{
+    <p>Cargando...</p>
+}
+else
+{ <MudGrid Class=" pa-4 black  shades-text text-white">
+        @foreach (var item in Cancioness)
+        { <MudItem xs="12" sm="10" md="6" lg="4">
+                <MudCard Class="black">
+                    <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h6">@item.Titulo</MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                  
+                    <MudCardActions>
+                        <MudButton EndIcon="@Icons.Material.Filled.PlayArrow"  
+                                   Link="@($"/Reproductor/{item.Id}")" Variant="Variant.Outlined" Color="Color.Primary">Reproducir</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    IEnumerable<Canciones> Cancioness = new List<Canciones>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id > 0)
+            Cancioness = await CancionesService.GetByCanciones(id);
+    }
+}

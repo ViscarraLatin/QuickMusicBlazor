@@ -92,12 +92,12 @@ using MudBlazor;
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
 #nullable restore
-#line 21 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Shared\MainLayout.razor"
+#line 23 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Shared\MainLayout.razor"
        
     bool _drawerOpen = true;
 
@@ -105,6 +105,8 @@ using MudBlazor;
     {
         _drawerOpen = !_drawerOpen;
     }
+  
+   
 
 #line default
 #line hidden

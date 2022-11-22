@@ -67,4 +67,10 @@
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+    .img {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
 }

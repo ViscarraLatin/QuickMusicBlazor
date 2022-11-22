@@ -1,0 +1,39 @@
+﻿@page "/Genero"
+@using Models
+@using Services
+@inject IGeneroService GeneroService
+<MudText Typo="Typo.h3" Class="text-center pa-4 shades-text text-white ">Generos Musicales</MudText>
+<MudGrid>
+    @foreach (var item in deptos)
+    {string Genero = "";
+        <MudItem xs="12" sm="10" md="6" lg="4">
+            <MudCard >
+                <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h6">@item.Nombre</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent Class=" pa-4 indigo  shades-text text-white ">
+                    @switch (item.Id)
+                    {
+                        case 1:
+                            Genero = "Genero";
+                            break;
+                    }
+                    <MudText Typo="Typo.body2">Genero @Genero</MudText>
+
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Link="@($"/genero/{item.Id}")"  Variant="Variant.Text" Color="Color.Primary">Ver Generos</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    }
+</MudGrid>
+@code {
+    IEnumerable<Genero> deptos = new List<Genero>();
+    protected override async Task OnInitializedAsync()
+    {
+        deptos = await GeneroService.GetAll();
+    }
+}

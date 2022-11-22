@@ -29,7 +29,10 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-pr6L2mjcqc8D0q4a8E717JbHBm5iEM4PFAo1DBJmaUg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-wm\/PyT01CAndytn\/B\/egrjENN3gkDMsMDaFon1TwCHA=",
+      "Microsoft.Rest.ClientRuntime.dll": "sha256-2cpRhQvB\/a3uCFrjAu1abumwywtFLOdgj6tFh7kmDSQ=",
       "MudBlazor.dll": "sha256-S\/qMMbqwz6x0Pk2gHik1R6OOX7FkEOaAoYSdM6bCj1U=",
+      "Newtonsoft.Json.dll": "sha256-AmjYhRYDXrZ4UeFf6lvSeHEA5V9O1qnItDSf6TPDkyk=",
+      "PowerBI.Api.dll": "sha256-+ZtSc+TpVDMaKJhkUIJpqPb4pXfd10dn2vzXVDds1HA=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
       "Microsoft.CSharp.dll": "sha256-PpkoBrb5GDDzBCVjEGJ15VkONpHLxk8ZZ3uc0eDYPaY=",
       "Microsoft.VisualBasic.Core.dll": "sha256-SyyaBBG5sBtJEfy89ATtHrxESu8\/SyNLYJXV1OaHYG0=",
@@ -196,11 +199,13 @@
       "mscorlib.dll": "sha256-zMI\/dXK7DoZZ9Qm9U9\/jRN4iQ9Ss3w8\/rwQQxC6SW9Y=",
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
-      "QuickMusic.ClienteBlazor.dll": "sha256-Gpaa+tdnhXMiQWkCwgbNAsor1DrnqzQ4rqfOF1p1TNw="
+      "QuickMusic.ClienteBlazor.dll": "sha256-UOroWHy1eiPluGR6Avp+RUmeK3qxw4iIztvbg9Rx9oQ="
     },
+    "extensions": null,
     "lazyAssembly": null,
+    "libraryInitializers": null,
     "pdb": {
-      "QuickMusic.ClienteBlazor.pdb": "sha256-SRWAI3b1YzYnMyTZLDXj3cZlB89\/qaLVFOMJIaAzmpY="
+      "QuickMusic.ClienteBlazor.pdb": "sha256-6Hr20aYoaGf5W3OqhyBIhu+XJLYPu5+YEY\/RWxfjR3k="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",
@@ -211,6 +216,7 @@
       "icudt_no_CJK.dat": "sha256-oM7Z6aN9jHmCYqDMCBwFgFAYAGgsH1jLC\/Z6DYeVmmk=",
       "dotnet.5.0.17.js": "sha256-bN7gtVqP2mIpLB0ilKP5kcTBnBDitG1uYoLSnd\/WeBY="
     },
+    "runtimeAssets": null,
     "satelliteResources": null
   }
 }

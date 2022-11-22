@@ -1,0 +1,39 @@
+﻿@page "/Reproductor/{id:int}"
+@using Models
+@using Services
+@inject ICancionesService Canciones
+<MudText Class="text-center pa-4 shades-text text-white " Typo="Typo.h4">Reproductor</MudText>
+@if (Cancioness == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+<MudCard Class="black" >
+    <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
+        <CardHeaderContent>
+            <MudText Typo="Typo.h6">@Cancioness.Titulo</MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <img src="@Cancioness.Imagen" alt="@Cancioness.Titulo" Elevation="25" Class="rounded-lg" width="50%" height="90%"  />
+    <MudCardActions Class="center indigo" >
+
+        <audio controls  >
+            <source src="@Cancioness.Cancion" />
+        </audio>
+    </MudCardActions>
+</MudCard>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    Canciones Cancioness;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id > 0)
+            Cancioness = await Canciones.GetById(id);
+    }
+}

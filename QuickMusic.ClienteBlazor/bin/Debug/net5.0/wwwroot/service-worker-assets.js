@@ -13,7 +13,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-i2jFZmyPtjeiPwYMmRfMJzaPGmztFzFqJx7UBxSjKCU=",
+      "hash": "sha256-1gaoukWYzYBzfBJ1cdcxAxsgLOPutv1TmHRFyZNB\/uM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -105,8 +105,20 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
+      "hash": "sha256-2cpRhQvB\/a3uCFrjAu1abumwywtFLOdgj6tFh7kmDSQ=",
+      "url": "_framework\/Microsoft.Rest.ClientRuntime.dll"
+    },
+    {
       "hash": "sha256-S\/qMMbqwz6x0Pk2gHik1R6OOX7FkEOaAoYSdM6bCj1U=",
       "url": "_framework\/MudBlazor.dll"
+    },
+    {
+      "hash": "sha256-AmjYhRYDXrZ4UeFf6lvSeHEA5V9O1qnItDSf6TPDkyk=",
+      "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
+      "hash": "sha256-+ZtSc+TpVDMaKJhkUIJpqPb4pXfd10dn2vzXVDds1HA=",
+      "url": "_framework\/PowerBI.Api.dll"
     },
     {
       "hash": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
@@ -801,11 +813,11 @@
       "url": "_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-Gpaa+tdnhXMiQWkCwgbNAsor1DrnqzQ4rqfOF1p1TNw=",
+      "hash": "sha256-UOroWHy1eiPluGR6Avp+RUmeK3qxw4iIztvbg9Rx9oQ=",
       "url": "_framework\/QuickMusic.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-SRWAI3b1YzYnMyTZLDXj3cZlB89\/qaLVFOMJIaAzmpY=",
+      "hash": "sha256-6Hr20aYoaGf5W3OqhyBIhu+XJLYPu5+YEY\/RWxfjR3k=",
       "url": "_framework\/QuickMusic.ClienteBlazor.pdb"
     },
     {
@@ -901,8 +913,20 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
+      "hash": "sha256-l6A5fwNqwrl3u9VpTrHEqN\/oeOuJrhjEb7XkGpubjPc=",
+      "url": "_framework\/Microsoft.Rest.ClientRuntime.dll.gz"
+    },
+    {
       "hash": "sha256-7anN+DcfzRTf+GkeiYUYVfuXT1OjYRYyvxIwDHm3Olk=",
       "url": "_framework\/MudBlazor.dll.gz"
+    },
+    {
+      "hash": "sha256-4rRBdcKDpOBGnc9V24WOlIDP3eTmgRtJvk\/EYl7J6Cw=",
+      "url": "_framework\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "hash": "sha256-FNqNGP4bqI7m5SYi1cNAOlnRB23XiHr9nqY5Hc1a7O0=",
+      "url": "_framework\/PowerBI.Api.dll.gz"
     },
     {
       "hash": "sha256-cvP9ghwWSAORoFc5MKEFORD1H4rInJakp+UntqR3BI0=",
@@ -1653,6 +1677,30 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-0b4BUYd7pOf+DL6RU2ebvoaNUyZHy30wju52LMuaKsQ=",
+      "url": "Imagen\/34.jpg"
+    },
+    {
+      "hash": "sha256-B3H185+x8jsHcqhK4VeefckAcy6HLZPUijEOEbgnP6Y=",
+      "url": "Imagen\/hu.jpg"
+    },
+    {
+      "hash": "sha256-EUsVwWdEwwAmRAC4UKpUjQXzx96y8gM8llyo\/o5rWcE=",
+      "url": "Imagen\/Logo para venta de cervezas micheladas retro neón.png"
+    },
+    {
+      "hash": "sha256-vH7HxsxJgUCXqsemumc8tya3Z3y8fDLdbNNFSw4r1Iw=",
+      "url": "Imagen\/music.jpg"
+    },
+    {
+      "hash": "sha256-dULulxaTG98cZSWOfx2tPsPHDCMDiwBT\/jp3NFf4bwg=",
+      "url": "Imagen\/QuickMusic (1).png"
+    },
+    {
+      "hash": "sha256-mOupGXCcb66gINLhM++tk37\/Z4h9ZRU8xqBoQktEP6w=",
+      "url": "Imagen\/QuickMusic.png"
+    },
+    {
       "hash": "sha256-jXeqgjbGN56NU90IB2ZzbNNYrxjc8a5ulGiKYg5VMO4=",
       "url": "index.html"
     },
@@ -1661,17 +1709,25 @@
       "url": "manifest.json"
     },
     {
+      "hash": "sha256-tryYG10Qf\/0zTm5aMC\/3j+Agms5xGBEG4cLFnIziFrU=",
+      "url": "Musica\/Caballero.mp3"
+    },
+    {
+      "hash": "sha256-tryYG10Qf\/0zTm5aMC\/3j+Agms5xGBEG4cLFnIziFrU=",
+      "url": "Musica\/MePortoBonito.mp3"
+    },
+    {
+      "hash": "sha256-MT57\/M\/jVkkYaE1VfwsAu6Wxb7v3PLinqFpFsXdjWwY=",
+      "url": "Musica\/ojos.aac"
+    },
+    {
       "hash": "sha256-yzFf+O\/mlH+Q9klUSqXP2kxGKOUFLPxaww8da8fKhGU=",
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-Oc9yljMopkPHCsRZDQv+PPoesH\/21QScXlPIeVNWTjA=",
-      "url": "QuickMusic.ClienteBlazor.styles.css"
-    },
-    {
-      "hash": "sha256-MlxKTkTp5dFjoRHmijsV\/kKU9PMnES4+4DBl5cj2\/b8=",
+      "hash": "sha256-2ZoJPEI8JD4PXp+vAU6AZdhdMOWO7iMmf2DhatsLVKg=",
       "url": "QuickMusic.ClienteBlazor.bundle.scp.css"
     }
   ],
-  "version": "5cjFgZfL"
+  "version": "BDv9Twzv"
 };

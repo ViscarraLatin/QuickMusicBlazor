@@ -1,0 +1,42 @@
+﻿@page "/Canciones"
+@using Models
+@using Services
+@inject ICancionesService CancionesService
+
+
+<MudText Typo="Typo.h4" Class=" pa-4 shades-text text-white ">Canciones</MudText>
+
+@if (canciones == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <MudGrid>
+        @foreach (var item in canciones)
+        {
+            <MudItem xs="12" sm="10" md="6" lg="4">
+                <MudCard Class="Grey"  >
+                    <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h6">@item.Titulo</MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    
+                    
+                    <MudCardActions>
+                        <MudButton EndIcon="@Icons.Material.Filled.PlayArrow" 
+                                   Link="@($"/Reproductor/{item.Id}")" Variant="Variant.Outlined" Color="Color.Success">Reproducir</MudButton>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
+}
+@code {
+    IEnumerable<Canciones> canciones = new List<Canciones>();
+    protected override async Task OnInitializedAsync()
+    {
+        canciones = await CancionesService.GetAll();
+    }
+}
