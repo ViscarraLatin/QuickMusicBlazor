@@ -112,7 +112,7 @@ using Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\DetallesDeArtista.razor"
+#line 33 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\DetallesDeArtista.razor"
        
     [Parameter]
     public int id { get; set; }

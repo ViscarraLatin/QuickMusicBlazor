@@ -13,7 +13,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-1gaoukWYzYBzfBJ1cdcxAxsgLOPutv1TmHRFyZNB\/uM=",
+      "hash": "sha256-vQaEUxfSP3Y\/a7j8oDc3T3d8W7duhtd1hUlIG7DAfCQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -813,11 +813,11 @@
       "url": "_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-UOroWHy1eiPluGR6Avp+RUmeK3qxw4iIztvbg9Rx9oQ=",
+      "hash": "sha256-p\/Fi1XsVKnH2+6aCBCMCJTRC56SldA17tV1NCFz9hes=",
       "url": "_framework\/QuickMusic.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-6Hr20aYoaGf5W3OqhyBIhu+XJLYPu5+YEY\/RWxfjR3k=",
+      "hash": "sha256-qgcwXojYOVP7Td+YTUJleIP+ORK\/CC7tqcfG7izt7JA=",
       "url": "_framework\/QuickMusic.ClienteBlazor.pdb"
     },
     {
@@ -1729,5 +1729,5 @@
       "url": "QuickMusic.ClienteBlazor.bundle.scp.css"
     }
   ],
-  "version": "BDv9Twzv"
+  "version": "X986sg53"
 };

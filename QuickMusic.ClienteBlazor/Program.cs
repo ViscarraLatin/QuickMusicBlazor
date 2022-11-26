@@ -21,7 +21,7 @@ namespace QuickMusic.ClienteBlazor
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://www.quickmusicsv.somee.com/api/") });
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://quickmusicsv.somee.com/api/") });
 
             builder.Services.AddScoped < IArtistaService, ArtistaService>();
             builder.Services.AddScoped<IGeneroService, GeneroService>();

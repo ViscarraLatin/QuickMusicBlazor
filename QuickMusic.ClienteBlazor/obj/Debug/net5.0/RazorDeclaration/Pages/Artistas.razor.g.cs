@@ -112,7 +112,7 @@ using Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 36 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\Artistas.razor"
+#line 38 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\Artistas.razor"
            
         IEnumerable<Artista> deptos = new List<Artista>();
         protected override async Task OnInitializedAsync()
