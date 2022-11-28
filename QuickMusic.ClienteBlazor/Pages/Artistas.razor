@@ -9,11 +9,14 @@
         {
             string Artista = "";
             <MudItem xs="12" sm="10" md="6" lg="4">
-                <MudCard Class="Grey">
-                    <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
+            <MudCard Class="black">
+                <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
                         <CardHeaderContent>
                             <MudText Typo="Typo.h6">@item.Nombre</MudText>
-
+                     
+                            <MudCardActions Class="center">
+                                <img src="@item.Imagen" elvation="25" class="rounded-1g" width="60%" height="auto">
+                            </MudCardActions>
                      
                         </CardHeaderContent>
                     </MudCardHeader>

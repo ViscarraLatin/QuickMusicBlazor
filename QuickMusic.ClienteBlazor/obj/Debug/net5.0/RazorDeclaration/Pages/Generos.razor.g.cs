@@ -112,7 +112,7 @@ using Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\Generos.razor"
+#line 36 "C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\Pages\Generos.razor"
        
     IEnumerable<Genero> deptos = new List<Genero>();
     protected override async Task OnInitializedAsync()

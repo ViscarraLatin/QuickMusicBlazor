@@ -7,12 +7,15 @@
     @foreach (var item in deptos)
     {string Genero = "";
         <MudItem xs="12" sm="10" md="6" lg="4">
-            <MudCard >
+            <MudCard Class="black">
                 <MudCardHeader Class=" pa-4 indigo  shades-text text-white ">
                     <CardHeaderContent>
                         <MudText Typo="Typo.h6">@item.Nombre</MudText>
                     </CardHeaderContent>
                 </MudCardHeader>
+                <MudCardActions Class="center">
+                    <img src="@item.Imagen" elvation="25" class="rounded-1g" width="60%" height="auto">
+                </MudCardActions>
                 <MudCardContent Class=" pa-4 indigo  shades-text text-white ">
                     @switch (item.Id)
                     {

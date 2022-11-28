@@ -13,7 +13,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-vQaEUxfSP3Y\/a7j8oDc3T3d8W7duhtd1hUlIG7DAfCQ=",
+      "hash": "sha256-ZwSEaZPsh9VNTYHztrigj2p2luoZgb3WtQwHG5RNO+M=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -813,11 +813,11 @@
       "url": "_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-p\/Fi1XsVKnH2+6aCBCMCJTRC56SldA17tV1NCFz9hes=",
+      "hash": "sha256-EGBddTvJnHLYevgO21zptz5A8\/CvvIjso73ZIfi0i2w=",
       "url": "_framework\/QuickMusic.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-qgcwXojYOVP7Td+YTUJleIP+ORK\/CC7tqcfG7izt7JA=",
+      "hash": "sha256-Ws9sNdR+O4k1oruht57O1UrFc3Eo3gFKUJgd0i4xPMg=",
       "url": "_framework\/QuickMusic.ClienteBlazor.pdb"
     },
     {
@@ -1681,6 +1681,10 @@
       "url": "Imagen\/34.jpg"
     },
     {
+      "hash": "sha256-211V81WtVn4Cpa0cifX35+PgH7cCqJ3zFzXyvCuWeps=",
+      "url": "Imagen\/black.jpg"
+    },
+    {
       "hash": "sha256-B3H185+x8jsHcqhK4VeefckAcy6HLZPUijEOEbgnP6Y=",
       "url": "Imagen\/hu.jpg"
     },
@@ -1691,6 +1695,14 @@
     {
       "hash": "sha256-vH7HxsxJgUCXqsemumc8tya3Z3y8fDLdbNNFSw4r1Iw=",
       "url": "Imagen\/music.jpg"
+    },
+    {
+      "hash": "sha256-S2ysMQI944Ykw3U3Xy6GbzU0dGE+MzM5tc2x\/xGa2\/I=",
+      "url": "Imagen\/musicnote.png"
+    },
+    {
+      "hash": "sha256-Vz+4V4b6A74t67nFANTPpWKuGsUq1vbLY2P4jzxmMls=",
+      "url": "Imagen\/neon.png"
     },
     {
       "hash": "sha256-dULulxaTG98cZSWOfx2tPsPHDCMDiwBT\/jp3NFf4bwg=",
@@ -1729,5 +1741,5 @@
       "url": "QuickMusic.ClienteBlazor.bundle.scp.css"
     }
   ],
-  "version": "X986sg53"
+  "version": "Ft7AmImB"
 };

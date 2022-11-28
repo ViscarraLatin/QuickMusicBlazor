@@ -21,7 +21,9 @@ else
                             <MudText Typo="Typo.h6">@item.Titulo</MudText>
                         </CardHeaderContent>
                     </MudCardHeader>
-
+                    <MudCardActions Class="center">
+                        <img src="@item.Imagen" elvation="25" class="rounded-1g" width="60%" height="auto">
+                    </MudCardActions>
                     <MudCardActions>
                         <MudButton EndIcon="@Icons.Material.Filled.PlayArrow" Link="@($" /Reproductor/{item.Id}")" Variant="Variant.Outlined" Color="Color.Primary">Reproducir</MudButton>
                     </MudCardActions>

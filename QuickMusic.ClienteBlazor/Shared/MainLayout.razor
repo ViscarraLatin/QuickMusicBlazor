@@ -12,12 +12,13 @@
     <MudDrawer Class=" pa-4 black  shades-text text-white" @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu></NavMenu>
     </MudDrawer>
-    <MudMainContent>
-        <MudContainer Class="pa-9 black  " >
+    <MudMainContent Class="pa-20 black">
+        <MudContainer  >
             @Body
 
         </MudContainer>
-    </MudMainContent>
+    </MudMainContent >
+   
 </MudLayout>
 
 @code {
@@ -30,6 +31,7 @@
   
    
 }
+
 
 <MudDialogProvider  />
 <MudSnackbarProvider />
