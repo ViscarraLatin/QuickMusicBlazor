@@ -13,7 +13,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-ZwSEaZPsh9VNTYHztrigj2p2luoZgb3WtQwHG5RNO+M=",
+      "hash": "sha256-Bd9UhyzrqIz6OG7NLyOfzir8mCSLpqeBlt6SsbVrFIY=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -813,11 +813,11 @@
       "url": "_framework\/dotnet.5.0.17.js"
     },
     {
-      "hash": "sha256-EGBddTvJnHLYevgO21zptz5A8\/CvvIjso73ZIfi0i2w=",
+      "hash": "sha256-sXscgV1de1TjUrKSGAaIGBgVXP1CQLjp\/T43jjrLGiQ=",
       "url": "_framework\/QuickMusic.ClienteBlazor.dll"
     },
     {
-      "hash": "sha256-Ws9sNdR+O4k1oruht57O1UrFc3Eo3gFKUJgd0i4xPMg=",
+      "hash": "sha256-2qNL7L7jhuGJOlKYs3T8vmdm9h7K0HgcTfZMBP0QVV0=",
       "url": "_framework\/QuickMusic.ClienteBlazor.pdb"
     },
     {
@@ -1677,47 +1677,39 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-0b4BUYd7pOf+DL6RU2ebvoaNUyZHy30wju52LMuaKsQ=",
-      "url": "Imagen\/34.jpg"
-    },
-    {
       "hash": "sha256-211V81WtVn4Cpa0cifX35+PgH7cCqJ3zFzXyvCuWeps=",
       "url": "Imagen\/black.jpg"
+    },
+    {
+      "hash": "sha256-aCBmC5jrRDew1zHa7DdErHqgT0gXxCT48y1I4+ECijA=",
+      "url": "Imagen\/Este es (2).gif"
+    },
+    {
+      "hash": "sha256-SKCQlfkZzYrlEobF8skcEppUioAY3wICmd69GmTmLQw=",
+      "url": "Imagen\/Este es.gif"
     },
     {
       "hash": "sha256-B3H185+x8jsHcqhK4VeefckAcy6HLZPUijEOEbgnP6Y=",
       "url": "Imagen\/hu.jpg"
     },
     {
-      "hash": "sha256-EUsVwWdEwwAmRAC4UKpUjQXzx96y8gM8llyo\/o5rWcE=",
-      "url": "Imagen\/Logo para venta de cervezas micheladas retro neón.png"
+      "hash": "sha256-yV8f3+t9VqqvhqKXWpcf7P3s7tnm1DBWDei9xu95OZc=",
+      "url": "Imagen\/icon-512.png"
     },
     {
-      "hash": "sha256-vH7HxsxJgUCXqsemumc8tya3Z3y8fDLdbNNFSw4r1Iw=",
-      "url": "Imagen\/music.jpg"
-    },
-    {
-      "hash": "sha256-S2ysMQI944Ykw3U3Xy6GbzU0dGE+MzM5tc2x\/xGa2\/I=",
-      "url": "Imagen\/musicnote.png"
-    },
-    {
-      "hash": "sha256-Vz+4V4b6A74t67nFANTPpWKuGsUq1vbLY2P4jzxmMls=",
-      "url": "Imagen\/neon.png"
+      "hash": "sha256-tOsph5lJd6Gew5ZrnRMj9ybJhMK0PqNjOiQvXjBeJ7E=",
+      "url": "Imagen\/Quick music (4).gif"
     },
     {
       "hash": "sha256-dULulxaTG98cZSWOfx2tPsPHDCMDiwBT\/jp3NFf4bwg=",
       "url": "Imagen\/QuickMusic (1).png"
     },
     {
-      "hash": "sha256-mOupGXCcb66gINLhM++tk37\/Z4h9ZRU8xqBoQktEP6w=",
-      "url": "Imagen\/QuickMusic.png"
-    },
-    {
       "hash": "sha256-jXeqgjbGN56NU90IB2ZzbNNYrxjc8a5ulGiKYg5VMO4=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-XSSwo8ryhwavYnRlrmO7FK87VWmMIMfcZxs3LgurygE=",
+      "hash": "sha256-Q41OqxtJ8oJwbpSf4E7DOCBfTV0hDTwullt9PK847ck=",
       "url": "manifest.json"
     },
     {
@@ -1733,6 +1725,10 @@
       "url": "Musica\/ojos.aac"
     },
     {
+      "hash": "sha256-yV8f3+t9VqqvhqKXWpcf7P3s7tnm1DBWDei9xu95OZc=",
+      "url": "sample-data\/2.png"
+    },
+    {
       "hash": "sha256-yzFf+O\/mlH+Q9klUSqXP2kxGKOUFLPxaww8da8fKhGU=",
       "url": "sample-data\/weather.json"
     },
@@ -1741,5 +1737,5 @@
       "url": "QuickMusic.ClienteBlazor.bundle.scp.css"
     }
   ],
-  "version": "Ft7AmImB"
+  "version": "x2Qk\/Dn8"
 };
