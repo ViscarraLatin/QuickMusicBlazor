@@ -1,6 +1,6 @@
 {
-  "name": "QuickMusic",
-  "short_name": "QuickMusic",
+  "name": "QuickMusic.ClienteBlazor",
+  "short_name": "QuickMusic.ClienteBlazor",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#080000",
@@ -8,7 +8,7 @@
   "icons": [
     {
       "src": "33.png",
-      "type": "image/png",
+      "type": "imagen/png",
       "sizes": "512x512"
     }
   ]
