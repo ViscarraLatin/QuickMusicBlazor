@@ -660,3 +660,5 @@ C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic
 C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.QuickMusic.ClienteBlazor.props
 C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.QuickMusic.ClienteBlazor.props
 C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\obj\Debug\net5.0\refint\QuickMusic.ClienteBlazor.dll
+C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\AcercaDe.razor.g.cs
+C:\Users\KATHYA VISCARRA\OneDrive\Escritorio\QuickMusic.ClienteBlazor\QuickMusic.ClienteBlazor\obj\Debug\net5.0\Razor\Pages\AcercaDe.razor.g.cs

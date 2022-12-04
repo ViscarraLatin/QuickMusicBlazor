@@ -3,7 +3,7 @@
 @using Services
 @inject ICancionesService CancionesService
 
-<MudText Typo="Typo.h4" Class="text-center pa-4 shades-text text-white ">Lista de Canciones</MudText>
+<MudText Typo="Typo.h4" Class="text-center pa-4 shades-text text-white ">Lista de CancionesPor Género </MudText>
 
 @if (Generos == null)
 {
@@ -27,9 +27,12 @@ else
                     <MudCardActions>
                         <MudButton EndIcon="@Icons.Material.Filled.PlayArrow" Link="@($" /Reproductor/{item.Id}")" Variant="Variant.Outlined" Color="Color.Primary">Reproducir</MudButton>
                     </MudCardActions>
+           
                 </MudCard>
             </MudItem>
+
         }
+        <img src="Imagen/black.jpg" alt="QuickMusic" width="100%" /> .
     </MudGrid>
 }
 

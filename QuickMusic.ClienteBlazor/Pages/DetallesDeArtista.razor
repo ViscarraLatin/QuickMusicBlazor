@@ -2,7 +2,7 @@
 @using Models
 @using Services
 @inject ICancionesService CancionesService
-<MudText Typo="Typo.h4" Class="text-center pa-4 shades-text text-white " >Lista de Canciones</MudText>
+<MudText Typo="Typo.h4" Class="text-center pa-4 shades-text text-white " >Lista de Canciones Por Artista</MudText>
 @if (Cancioness == null)
 {
     <p>Cargando...</p>
@@ -27,9 +27,12 @@ else
                                    Link="@($"/Reproductor/{item.Id}")" Variant="Variant.Outlined" Color="Color.Primary">Reproducir</MudButton>
                     </MudCardActions>
                 </MudCard>
+
             </MudItem>
         }
+        <img src="Imagen/black.jpg" alt="QuickMusic" width="100%" /> .
     </MudGrid>
+
 }
 
 @code {
